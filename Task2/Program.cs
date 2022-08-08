@@ -38,14 +38,14 @@ Console.WriteLine("Наибольшее из введенных чисел: " + 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
 Console.WriteLine ("Введите число: ");
-num = Convert.ToInt32(Console.ReadLine());
-if (num % 2 == 1)
+num_1 = Convert.ToInt32(Console.ReadLine());
+if (num_1 % 2 == 1)
 {
-    Console.WriteLine("Число " + num + " является: нечётным");
+    Console.WriteLine("Число " + num_1 + " является: нечётным");
 }
 else
 {
-    Console.WriteLine("Число " + num + "является: чётным");
+    Console.WriteLine("Число " + num_1 + "является: чётным");
 
 }
 
@@ -55,10 +55,10 @@ int i = 1;
 bool not = true;
 
 Console.WriteLine("Введите число: ");
-num = Convert.ToInt32(Console.ReadLine());
+num_1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Чётные числа от 1 до " + num);
-while (i <= num)
+Console.WriteLine("Чётные числа от 1 до " + num_1);
+while (i <= num_1)
 {
     if (i % 2 != 1)
     {
